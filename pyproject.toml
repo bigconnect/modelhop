@@ -1,0 +1,6 @@
+[project]
+name = "modelhop"
+version = "0.3.0"
+description = "Send one prompt to any OpenAI-compatible provider"
+requires-python = ">=3.10"
+license = { text = "MIT" }
