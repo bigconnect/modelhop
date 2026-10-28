@@ -3,7 +3,8 @@
 Send one prompt to any OpenAI-compatible provider from the command line. No dependencies.
 
 ```sh
-export OPENROUTER_API_KEY=*** -m modelhop --provider openrouter --model openai/gpt-4o-mini "Say hi"
+export OPENROUTER_API_KEY=...
+python -m modelhop --provider openrouter --model openai/gpt-4o-mini "Say hi"
 ```
 
 ## Supported providers
