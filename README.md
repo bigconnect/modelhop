@@ -3,8 +3,7 @@
 Send one prompt to any OpenAI-compatible provider from the command line. No dependencies.
 
 ```sh
-export OPENROUTER_API_KEY=...
-python -m modelhop --provider openrouter --model openai/gpt-4o-mini "Say hi"
+export OPENROUTER_API_KEY=*** -m modelhop --provider openrouter --model openai/gpt-4o-mini "Say hi"
 ```
 
 ## Supported providers
@@ -13,7 +12,7 @@ python -m modelhop --provider openrouter --model openai/gpt-4o-mini "Say hi"
 |---|---|---|
 | DeepInfra | `deepinfra` | `DEEPINFRA_API_KEY` |
 | Groq | `groq` | `GROQ_API_KEY` |
-| llm.buzz | `llm-buzz` | `LLM_BUZZ_API_KEY` |
+| llm.buzz | `llmbuzz` | `LLM_BUZZ_API_KEY` |
 | OpenAI | `openai` | `OPENAI_API_KEY` |
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` |
 | Together AI | `together` | `TOGETHER_API_KEY` |

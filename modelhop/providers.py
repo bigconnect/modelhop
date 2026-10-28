@@ -25,7 +25,7 @@ PROVIDERS: dict[str, Provider] = {
         base_url="https://api.groq.com/openai/v1",
         api_key_env="GROQ_API_KEY",
     ),
-    "llm-buzz": Provider(
+    "llmbuzz": Provider(
         name="llm.buzz",
         base_url="https://api.llm.buzz/api/v1",
         api_key_env="LLM_BUZZ_API_KEY",
