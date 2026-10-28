@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added llm.buzz provider.
+
 ## 0.3.0
 
 - Added DeepInfra provider.
